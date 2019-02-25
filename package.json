@@ -15,6 +15,7 @@
     "fibos",
     "fibjs"
   ],
+  "typings": "types/index.d.ts",
   "scripts": {
     "test": "fibjs ./test/index.js",
     "build_browser": "browserify -o dist/fibos.js -s Fibos lib/index.js"
